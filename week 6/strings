@@ -1,0 +1,20 @@
+a="vineeth Goud"
+print(a[0])
+print(a[1])
+print(a[2])
+print(a[3:4])
+print(a[0:12])
+b="typing computer"
+concatenated_string=a+" "+b
+print(concatenated_string)
+length=len(a)
+print(length)
+print(a.lower())
+print(a.upper())
+print(concatenated_string.split())
+print(concatenated_string.replace("typing computer","is typing"))
+print(concatenated_string.find("typing"))
+name= "vineeth Goud"
+age="20"
+formatted_string= f"My name is {name} and my age is {age}"
+print(formatted_string)
